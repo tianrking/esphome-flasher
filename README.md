@@ -28,6 +28,8 @@ If you want to install this application from `pip`:
 
 - Install Python 3.x
 - Install [wxPython 4.x](https://wxpython.org/) manually or run `pip3 install wxpython` (see also linux notes below)
+   if cannot install successfully please try `pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-20.04/ wxPython`
+
 - Install this project using `pip3 install esphomeflasher`
 - Start the GUI using `esphomeflasher`. Alternatively, you can use the command line interface (
   type `esphomeflasher -h` for info)
